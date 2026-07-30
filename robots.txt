@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://naveendarling249-cloud.github.io/svb-solar-system/sitemap.xml
