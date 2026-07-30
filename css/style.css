@@ -530,3 +530,27 @@ body{
 .call-btn:hover{
     transform: scale(1.1);
 }
+.counter{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+    padding:70px 20px;
+    background:#0b3d2e;
+    color:white;
+    text-align:center;
+}
+
+.counter-box{
+    min-width:220px;
+}
+
+.counter-box h2{
+    font-size:48px;
+    color:#FFD700;
+    margin-bottom:10px;
+}
+
+.counter-box p{
+    font-size:20px;
+}
