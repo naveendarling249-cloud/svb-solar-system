@@ -607,3 +607,16 @@ body{
         transform:rotate(360deg);
     }
 }
+.header-call{
+    background:#28a745;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius:6px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.header-call:hover{
+    background:#218838;
+}
