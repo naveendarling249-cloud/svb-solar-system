@@ -45,7 +45,10 @@ AOS.init({
 });
 </script>
 <body>
-
+<div id="loader">
+    <img src="images/logo.png" alt="SVB Solar Logo">
+    <h2>SVB Solar Systems</h2>
+</div>
     <header>
 
     <div class="logo">
@@ -324,6 +327,11 @@ Serving Andhra Pradesh | Rooftop Solar Experts | Free Solar Consultation
 <a href="tel:+918074496254" class="call-btn">
     📞
 </a>
+<script>
+window.addEventListener("load", function () {
+    document.getElementById("loader").style.display = "none";
+});
+</script>
 </body>
 
 </html>

@@ -574,3 +574,36 @@ body{
     width:100%;
     border-radius:10px;
 }
+#loader{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#ffffff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    z-index:99999;
+}
+
+#loader img{
+    width:120px;
+    animation:spin 2s linear infinite;
+}
+
+#loader h2{
+    margin-top:20px;
+    color:#0b7a35;
+    font-size:28px;
+}
+
+@keyframes spin{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
