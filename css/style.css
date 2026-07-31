@@ -554,3 +554,23 @@ body{
 .counter-box p{
     font-size:20px;
 }
+.location{
+    padding:60px 20px;
+    text-align:center;
+    background:#f8f9fa;
+}
+
+.location h2{
+    margin-bottom:15px;
+}
+
+.location p{
+    margin-bottom:20px;
+    font-size:18px;
+}
+
+.location iframe{
+    max-width:1000px;
+    width:100%;
+    border-radius:10px;
+}
